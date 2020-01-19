@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 
     <link rel="stylesheet" href="styles.css">
@@ -15,8 +17,8 @@
 <header>
     <div class="container">
         <div class="row">
-            <div class="col-md-6" class="fcgcol">
-                <a href="me" class="fcg3">Frederick Clayton Guthrie III</a>
+            <div class="col-md-6" id="fcgcol">
+                <a href="me" class="fcg3" id="fcgcol">Frederick Clayton Guthrie III</a>
             </div>
             <div class="col-md-6">
                 <ul class="nav justify-content-end" id="nav" class="col-md-06">
@@ -30,57 +32,59 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
-     </div>
+                </ul>
+            </div>
+        </div>
+        <div class="row" id="lineDiv"> </div>
+    </div>
 </header>
+
 <body>
     <div class="container">
-         <div class="container">
-            <div class="row" id="rowCon">
-                <div class="col-md-8"  id="box1">
-                    <div>
-                        <div class="row" id="aboutMe">
-                            <a href="About Me" class="aboutMe"> Contact Info</a>
-                        </div>
-                        <div class="row" id="lineDiv2"> </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label>Name</label>
-                                <input type="text" class="form-group">
-                            </div> 
-                            <div class="form-group">
-                                <label>E-mail</label>
-                                <input type="text" class="form-group">
-                            </div> 
-                            <div class="form-group">
-                                <label>Message</label>
-                                <textarea class="form-control" row="20"></textarea>
-                            </div> 
-                            <div class="form-group">
-                                <button class="btn btn-primary btn-block">Submit</button>
-                            </div> 
-                         
-                        </div>
-    
+        <div class="row" id="rowCon">
+        <!-- <div class="row " id="rowP1" > -->
+            <div class="col-md-8" id="box1">
+                <div>
+                    <div class="row" id="aboutMe">
+                        <a href="About Me" class="aboutMe"> Contact Info</a>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <!-- item2 -->
+                    <div class="row" id="lineDiv2"> </div>
+                    <div class="col-md-10">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="col-md-10" class="form-group" required="yes"
+                                placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label>E-mail</label>
+                            <input type="text" class="col-md-10" class="form-group" required="yes"
+                                placeholder="John@someplace.com">
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea class="col-md-12" class="form-control" row="20"
+                                placeholder="Put Message Here"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-primary btn-block">Submit</button>
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
-    
-            <div class="row" id="row2">
-                <div class="col-md-12" id="test1">
-    
-                </div>
+            <div class="col-md-4">
+                <!-- item2 -->
             </div>
-            <div class="row" id="lineDiv"> </div>
-            <div class="row" class="btext"> 
-                <p> copyright@ </p>
-            </div>
-    
         </div>
- 
+        <div class="row" id="lineDiv"> </div>
+        <div class="row justify-content-around" id="btext">
+            <a>Copyright@</a>
+            <!-- <span class="d-block p-2 bg-primary text-white">d-block</span> -->
+        </div>
+
     </div>
-    
+
 </body>
+
 </html>
