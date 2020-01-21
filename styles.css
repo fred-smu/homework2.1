@@ -75,7 +75,7 @@ ul a:hover::before{
 ul li{
     position: relative;
 }
-#lineDiv{
+ #lineDiv{ 
    background-color: black;
    height: 3px;
 }
@@ -119,7 +119,12 @@ img{
 }
 #btext{
     /* border:dashed green ; */
+    /* border:solid 5px #000; */
     height: 50px;
     color: cornsilk;
     background-color: blue;
+}
+
+.myContainer {
+    border: solid 5px black;
 }
