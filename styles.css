@@ -115,6 +115,7 @@ img{
     padding-left: 20px;
     background-color:blue;
     color: cornsilk;
+    /* border-right: solid 5px black; */
   
 }
 #btext{
@@ -127,4 +128,13 @@ img{
 
 .myContainer {
     border: solid 5px black;
+}
+.myContainer2 {
+    /* border: solid 5px black; */
+    border-bottom: solid 5px black;
+    border-left: solid 5px black;
+    border-right: solid 5px black;;
+}
+#navbar1{
+    border-left: solid 5px black;
 }
